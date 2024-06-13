@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text2Film</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="general.css" />
+    <link rel="stylesheet" href="queries.css" />
+  </head>
+  <body>
+    <main>
+      <section class="section-cta">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-text-box">
+              <h2 class="heading-secondary">Free AI Video Generator</h2>
+              <form class="cta-form" action="#">
+                <div>
+                  <label for="Company Information">Company Info.</label>
+                  <textarea rows="3" cols="60" required></textarea>
+                </div>
+
+                <div>
+                  <label for="Product Information">Product Information</label>
+                  <textarea rows="3" cols="60" required></textarea>
+                </div>
+
+                <div>
+                  <label for="Target Group Info.">Target Group Profile</label>
+                  <textarea rows="3" cols="60" required></textarea>
+                </div>
+              </form>
+            </div>
+            <div
+              class="cta-img-box"
+              role="img"
+              aria-label="Woman enjoying food"
+            >
+              <video src="ai-video.mp4" controls loop autoplay muted></video>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="download-icon"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M12 2.25a.75.75 0 0 1 .75.75v11.69l3.22-3.22a.75.75 0 1 1 1.06 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 1 1 1.06-1.06l3.22 3.22V3a.75.75 0 0 1 .75-.75Zm-9 13.5a.75.75 0 0 1 .75.75v2.25a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5V16.5a.75.75 0 0 1 1.5 0v2.25a3 3 0 0 1-3 3H5.25a3 3 0 0 1-3-3V16.5a.75.75 0 0 1 .75-.75Z"
+                  clip-rule="evenodd"
+                />
+                <title>Download Video</title>
+              </svg>
+            </div>
+            <button class="btn btn--form">Generate Video</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
